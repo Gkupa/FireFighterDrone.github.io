@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+html, body {
+    height: 100%;
+    background-image: url(images/svg_background.png);
+    background-blend-mode:luminosity;
+}
+
+.banner{
+
+    padding-bottom: 30vh;
+    background-size:cover;
+    background-position: center;
+    background-image:url("images/Aboutus1png.png");
+
+}
+
+.aboutOurTeam {
+    position: relative;
+    display: inline-block;
+    justify-items: center;
+    justify-content: center;
+    margin-inline: 15%;
+    padding: 0;
+    width: fit-content;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+    margin-bottom: 2%;
+    font-family: lato;
+    color: aliceblue;
+
+}
+
+.aboutOurTeam h1 {
+
+    display:flex;
+    justify-content: center;
+    margin-bottom: 3vh;
+    text-align: center;
+}
+
+.aboutOurTeam h2 {
+
+    display:flex;
+    margin-top: 2%;
+    margin-bottom: 0.5%;
+    
+}
+.aboutOurTeam h3 {
+
+    display:flex;
+    margin-top: 2%;
+    margin-bottom: 0.2%;
+    
+}
+
+.pageImg {
+
+    display: flex;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    margin-bottom: 0.8vh;
+}
+
+.tag {
+
+    background:linear-gradient(to right, aliceblue ,  rgba(240, 248, 255, 0));
+    display: flex;
+    position: relative;
+    height: 6px;
+    width: 35vh;
+    margin-bottom: 0.5%;
+}
+
+.aboutOurTeam p {
+
+    margin-bottom: 0.8vh;
+    display: flex;
+    position: relative;
+    
+    
+}
+
+.p1 {
+
+    display: flex;
+    text-align: center;
+}
